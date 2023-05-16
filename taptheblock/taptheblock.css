@@ -1,0 +1,32 @@
+
+/* main body */
+body {
+    position: relative;
+}
+
+/* title and score display */
+h1,h2 {
+    text-align: center;
+}
+
+/* Main Grid */
+.grid {
+    width: 606px;
+    height: 606px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Square Display */
+.square {
+    width: 200px;
+    height: 200px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+}
+
+/* pop-up box (target) */
+.target {
+    background-color: red;
+}
